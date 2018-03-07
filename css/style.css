@@ -661,7 +661,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 200px;
+  height: 320px;
   position: relative;
   background: #fafafa;
 }
@@ -674,6 +674,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   display: inline-block;
   border: 6px solid #fff;
+}
+
+#services3 .img {
+  margin-bottom: 20px;
 }
 
 #services3 .icon a {
@@ -927,7 +931,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #team .member {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 #team .member .pic {
@@ -942,7 +945,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #team .member h4 {
   font-weight: 700;
-  margin-bottom: 2px;
   font-size: 18px;
 }
 
@@ -950,6 +952,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   display: block;
   font-size: 13px;
+}
+#team .member p {
+  font-style: italic;
+  display: block;
+  font-size: 15px;
 }
 
 #team .member .social {
