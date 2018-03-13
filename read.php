@@ -44,7 +44,7 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="index.php">Home</a></li>
-          
+         
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
@@ -56,43 +56,65 @@
     <section id="contact">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Pengajuan Formulir Pendaftaran Departemen Teknologi Informasi</h3>
-          <p class="section-description">Isi form dibawah ini sesuai dengan data diri anda!</p>
+          <h3 class="section-title">Panel Admin</h3>
+          <p class="section-description"></p>
         </div>
       </div>
           <div class="col-lg-5 col-md-8">
             <div class="form">
-        <!--
-        <form action="insert.php" method="post"  class="contactForm">  
-        <div class="form-group">
-          Name: <input type="text" class="form-control" name="nama">
-        </div>
-          <br><br>
-        <div class="form-group">
-          E-mail: <input type="text" class="form-control" name="email">
-          </div>
-          <br><br>
-        <div class="form-group">
-          Usia : <input type="text" class="form-control" name="usia">
-          </div>
-          <br><br>
-        <div class="form-group">
-          Alamat: <input type="text" name="alamat" class="form-control"></textarea>
-          </div>
-          <input type="hidden"  name="status" value="Pending">
-          <input type="submit" >  
-        </form>-->
-      
-      
-        <form action="insert.php" method="post">
-                Nama   : <input type="text" name="nama" class="form-control"><br>
+     
+                <h4>Update Data</h4>
+            <form action="update.php" method="post">
+                Status : <input type="text" name="status" class="form-control"><br>
+                Email : <input type="text" name="email" class="form-control"><br>
+                <input type="submit">
+            </form>
+
+            <br/>
+            <br/>
+
+            <h4>Delete Data</h4>
+            <form action="delete.php" method="post">
                 Email  : <input type="text" name="email" class="form-control"><br>
-                Usia   : <input type="text" name="usia" class="form-control"><br>
-                Alamat : <input type="text" name="alamat" class="form-control"><br>
-                        <input type="hidden" name="status" value="Pending"><br>
-        
-        <input type="submit">
-    </form>
+                <input type="submit">
+            </form>
+
+            <br/>
+            <br/>
+            <br/>
+
+        <?php
+              $servername = "localhost";
+              $username = "root";
+              $password = "";
+              $dbname = "teknologiinformasi";
+
+              // Create connection
+              $conn = new mysqli($servername, $username, $password, $dbname);
+              // Check connection
+              if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+              }
+
+              $sql = "SELECT * FROM pengajuanformulir";
+              $result = $conn->query($sql);
+
+              if ($result->num_rows > 0) {
+                // output data of each row
+                while($row = $result->fetch_assoc()) {
+                  echo "Nama: " . $row["nama"]. " - Email: " . $row["email"]. " - Usia: " . $row["usia"]. " - Alamat: " . $row["alamat"]. " - Status: " . $row["status"].  "<br>";
+                }
+              } else {
+                echo "0 results";
+              }
+              $conn->close();
+
+              ?>
+
+
+
+
+
 
 
             </div>
@@ -120,10 +142,7 @@
 
       <div class="copyright">
           
-          <span>Web Visitors : <?php 
-            include ("counter.php");
-            echo $kunjungan[0];
-            ?></span><br>
+        
          <p>Today is <?php
           echo date("Y/m/d") ." " . date("l");
         ?> </p>

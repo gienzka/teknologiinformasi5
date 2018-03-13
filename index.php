@@ -36,7 +36,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <a href="index.php"><img src="img/logo.png" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="#hero">Regna</a></h1>-->
       </div>
@@ -605,10 +605,11 @@
           <span>Web Visitors : <?php 
             include ("counter.php");
             echo $kunjungan[0];
-            ?></span><br>
+            ?></span><br/>
          <p>Today is <?php
           echo date("Y/m/d") ." " . date("l");
         ?> </p>
+          <span><a href="read.php">admin</a></span><br/>
           
         &copy; Copyright <strong>Gienzka Azzahra Wibowo Putri</strong>. 05211640000151
       </div>
