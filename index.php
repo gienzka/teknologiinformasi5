@@ -1,652 +1,315 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Departemen Teknologi Informasi</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-
-  <!-- Favicons -->
-  <link href="img/favicon.ico" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-
-</head>
-
-<body>
-
-  <!--==========================
-  Header
-  ============================-->
-  <header id="header">
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-        <a href="index.php"><img src="img/logo.png" alt="" title="" /></img></a>
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!--<h1><a href="#hero">Regna</a></h1>-->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Home</a></li>
-          <li><a href="#about">Tentang Departemen</a></li>
-          <li><a href="#facts">Visi Misi</a></li>
-          <li><a href="#services2">Fasilitas</a></li>
-          <li><a href="#portfolio">Galeri</a></li>
-          <li class="menu-has-children"><a href="#services3">Profil Lulusan</a>
-            <ul>
-              <li><a href="#services3">Spesialis Keamanan Siber</a></li>
-              <li><a href="#services3">Spesialis Internet of Things</a></li>
-              <li><a href="#services3">Analis Keamanan Aplikasi</a></li>
-              <li><a href="#services3">Pengembangan Layanan Awan</a></li>
-              <li><a href="#services3">Spesialis Integrasi Sistem</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Kontak</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
-  <!--==========================
-    Hero Section
-  ============================-->
-  <section id="hero">
-    <div class="hero-container">
-      <h1>Selamat Datang di</h1>
-      <h2>Departemen Teknologi Informasi</h2>
-      
-      <a href="#about" class="btn-get-started">Let's Go!</a>
-    </div>
-  </section><!-- #hero -->
-
-  <main id="main">
-
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container">
-        <div class="row about-container">
-
-          <div class="col-lg-6 content order-lg-1 order-2">
-            <h2 class="title">Apa kata mereka?</h2>
-            <p>
-              Departemen Teknologi Informasi hadir untuk mendukung dua dari lima bidang unggulan ITS yaitu ICT dan robotika , serta pemukiman.  Departemen ini memberikan kontribusi dalam pengembangan ilmu pengetahuan dan teknologi untuk kesejahteraan masyarakat melalui kegiatan pendidikan, penelitian, pengabdian kepada masyarakat, dan manajemen berbasis Teknologi Informasi.
-            </p>
-
-            <h3>Seleksi Masuk</h3>
-            <p>Tahun Akademik 2018/2019</p>
-
-            <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">SNMPTN</a></h4>
-              <p class="description">https://smits.ac.id/sarjana/#snmptn</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">SBMPTN</a></h4>
-              <p class="description">https://smits.ac.id/sarjana/#sbmptn </p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">PKM (Mandiri)</a></h4>
-              <p class="description"> https://smits.ac.id/sarjana/#pkm</p>
-            </div>
-
-           
-
-          </div>
-
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
-        </div>
-
-      </div>
-    </section><!-- #about -->
-
-    <!--==========================
-      Facts Section
-    ============================-->
-    <section id="facts">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <h3 class="section-title">Visi</h3>
-          <p class="section-description">Menjadi Program Studi Teknologi Informasi yang unggul dalam bidang keamanan siber dan Teknologi berbasis internet (Internet of Things) untuk mendukung permbangunan Smart City secara berkelanjutan hingga tahun 2022. </p>
-        </div>
-        <div class="section-header">
-          <h3 class="section-title">Misi</h3>
-          <p class="section-description">1. Menyelenggarakan pendidikan dan pengajaran Teknologi Informasi dengan menggunakan kurikulum yang adaptif, berorientasi ke masa deoan dan diukung SDM yang berkualitas serta fasilitas yang memadai <br>
-          2.  Melaksanakan penelitian yang bermutu di bidang Keamanan Siber dan Internet of Things untuk teknologi Smart City<br>
-          3.  Menjalin kemitraan dengan instansi dalam maupun luar negeri<br>
-          4.  Menyelenggarakan pengabdian kepada masyarakat berupa pelatihan, penyuluhan, penerapan hasil penelitian untuk pengembangan potensi dan pemberdayaan dan masyarakat daerah
-</p>
-        </div>
-       
-      </div>
-    </section><!-- #facts -->
-
-    <!--==========================
-      Services Section
-    ============================-->
-    <section id="services3">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <h3 class="section-title">Profil Lulusan</h3>
-          <p class="section-description">Apa saja profil lulusan dari Teknologi Informasi?</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="box">
-             <div class="img"><img src="img/asd5.png" alt="Spesialis Keamanan Siber" width="80px" height="80px"></div>
-              <h4 class="title"><a href="">Spesialis Keamanan Siber</a></h4>
-              <p class="description">Keamanan siber menjadi sangat penting dalam menjaga ketahanan nasional kita, karena terkait dengan sektor-sektor penting.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="box">
-              <div class="img"><img src="img/asd2.png" alt="Spesialis Internet of Things" width="80px" height="80px"></div>
-              <h4 class="title"><a href="">Spesialis Internet of Things</a></h4>
-              <p class="description">internet of things adalah sebuah teknologi yang memungkinkan kita untuk menghubungkan mesin  bertindak berdasarkan informasi baru yang diperoleh secara independen.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="box">
-              <div class="img"><img src="img/asd3.png" alt="Analis Keamanan Aplikasi" width="80px" height="80px"></div>
-              <h4 class="title"><a href="">Analis Keamanan Aplikasi</a></h4>
-              <p class="description">Seorang analis keamanan aplikasi bertugas untuk menjaga agar suatu aplikasi terbebas dari serangan dan ancaman luar yang dapat membahayakan keamanan dari suatu aplikasi.</p>
-            </div>
-          </div>
-          <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="box">
-               <div class="img"><img src="img/asd4.png" alt="Pengembang Layanan Awan" width="80px" height="80px"></div>
-              <h4 class="title"><a href="">Pengembang Layanan Awan</a></h4>
-              <p class="description">Layanan berbasis cloud computing merupakan salah satu bidang yang paling berkembang pesat dalam kemajuan teknologi zaman sekarang</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="box">
-               <div class="img"><img src="img/asd1.png" alt="Spesialis Integrasi Sistem" width="80px" height="80px"></div>
-              <h4 class="title"><a href="">Spesialis Integrasi Sistem</a></h4>
-              <p class="description">Mengintegrasikan sistem Teknologi pada zaman sekarang bukanlah hal yang mudah mengingat rumitnya sistem teknologi yang tersedia di perusahaan</p>
-            </div>
-          </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #services -->
-    <!--==========================
-      Content Section
-    ============================-->
-    <section id="services">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <h3 class="section-title">Mengapa Teknologi Informasi?</h3>
-          <p class="section-description">Teknologi Informasi merupakan sebuah cabang ilmu pembelajaran yang sesuai dengan kondisi saat ini, yaitu:</p>
-        </div>
-        <div class="icon-box wow fadeInUp">
-            
-              <h4 class="title"><a href="">Mengikuti Perkembangan Zaman</a></h4>
-              <p class="description">Saat ini, banyak terdapat hacker di dunia siber, oleh karena itu, diperlukan ahli keamanan siber dan aplikasi untuk mengurangi penipuan (fraud)</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-          
-              <h4 class="title"><a href="">Dibutuhkan oleh Perusahaan</a></h4>
-              <p class="description">Program Studi Teknologi Informasi dapat mencetak lulusan yang mempunyai keahlian di bidang layanan awan, yang berkontribusi dalam meningkatkan efisiensi operasional organisasi</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-           
-              <h4 class="title"><a href="">Mendukung Pemerintahan Indonesia</a></h4>
-              <p class="description">Memiliki kemampuan untuk menghasilkan SDM yang ahli dalam bidang integrasi system sebagai solusi untuk mendukung penanganan aplikasi-aplikasi di instansi pemerintahan (E-Government)</p>
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-          
-              <h4 class="title"><a href="">Mendukung Perkembangan Smart City</a></h4>
-              <p class="description">Memfasilitasi otomatisasi proses bisnis di organisasi untuk menghadapi perkembangan teknologi internet yang pesat dalam rangka mendukung pengembangan Teknologi Smart City</p>
-            </div>
-
-          </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #services -->
-
-    <!--==========================
-      content2 Section
-    ============================-->
-    <section id="facts">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <h3 class="section-title">Jenis Peluang Kerja</h3>
-          <p class="section-description">Apa saja peluang kerja yang dimiliki oleh Teknologi Informasi?</p>
-        </div>
-
-        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> 
-              <h5 class="title">1.  Komputasi Awan dan Komputasi Terdistribusi (Cloud and Distributed Computing)</h5>
-        </div>
-        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> 
-              <h5 class="title">2.  Arsitektur Web dan Pengembangan Framewok (Web Architecture and Development Framework)</h5>
-        </div>
-        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> 
-              <h5 class="title">3. Integrase Perangkat Lunak dan Middleware (Middleware and Integration Software)</h5>
-        </div>
-        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> 
-              <h5 class="title">4. Rancangan Antarmuka Pengguna (User Interface Design)</h5>
-        </div>
-        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> 
-              <h5 class="title">5. Keamanan Informasi dan Jaringan (Network and Information Security)</h5>
-        </div>
-        <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> 
-              <h5 class="title">6. Manajemen Penyimpanan Data (Storage Systems and Management)</h5>
-        </div>
-
-
-
-
-
-    
-        </div>
-
-      </div>
-    </section><!-- #facts -->
-
-    <!--==========================
-      Services Section
-    ============================-->
-    <section id="services2">
-      <div class="container wow fadeIn">
-        <div class="section-header">
-          <h3 class="section-title">Fasilitas</h3>
-          <p class="section-description">Apa saja fasilitas yang didapat dengan menjadi keluarga Teknologi Informasi?</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
-              <h4 class="title"><a href="">Laboratorium</a></h4>
-              <p class="description">Terdapat 2 laboratorium computer (Lab Keamanan Siber dan Lab Teknologi Smart City). Komputer telah dilengkapi oleh perangkat lunak yang digunakan untuk kegiatan praktikum.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
-              <h4 class="title"><a href="">Ruang Baca</a></h4>
-              <p class="description">Memiliki berbagai macam koleksi mulai dari fiksi hingga materi perkuliahan, dari bahan cetak hingga koleksi digital seperi CD-ROM, CD, VCD, DVD, serial harian dan bulanan seperti surat kabar dan majalah.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
-              <h4 class="title"><a href="">Ruang Kelas</a></h4>
-              <p class="description">Setiap ruang kelas dilengkapi dengan pendingin ruangan dan LCD serta akses internet gratis yang dapat mendukung kegiatan akademis mahasiswa.</p>
-            </div>
-          </div>
-
-          </div>
-        </div>
-        
-         <!--==========================
-    Call To Action Section
-    ============================-->
-    <section id="call-to-action">
-      <div class="container wow fadeIn">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Daftarkan Dirimu!</h3>
-            <p class="cta-text"> Seru kan jadi bagian dari keluarga Teknologi Informasi di ITS! Ayo kapan lagi kamu bisa mewujudkan semua talentamu di salah satu kampus terbaik diseluruh Indonesia!</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="daftar.php">Daftar!</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #call-to-action -->
-
-
-
-    <!--==========================
-      Portfolio Section
-    ============================-->
-    <section id="portfolio">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h3 class="section-title">Galeri Foto</h3>
-          <p class="section-description">Mau tau kecenya departemen kami? Yuk simak beberapa foto berikut!</p>
-        </div>
-        <div class="row">
-
-        <div class="row" id="portfolio-wrapper">
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app1.jpg" alt="">
-              <div class="details">
-                <h4>Gazebo</h4>
-                <span>Departemen Teknologi Informasi ITS</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card3.jpg" alt="">
-              <div class="details">
-                <h4>Kantin</h4>
-                <span>Departemen Teknologi Informasi ITS</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-            <a href="">
-              <img src="img/portfolio/app3.jpg" alt="">
-              <div class="details">
-                <h4>Ruang Tata Usaha</h4>
-                <span>Departemen Tekologi Informasi ITS</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card3.jpg" alt="">
-              <div class="details">
-                <h4>Ruang Kelas</h4>
-                <span>Departemen Teknologi Informasi ITS</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card2.jpg" alt="">
-              <div class="details">
-                <h4>Ruang Dosen</h4>
-                <span>Departemen Sistem Informasi ITS</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card3.jpg" alt="">
-              <div class="details">
-                <h4>Ruang Aula</h4>
-                <span>Departemen Teknologi Informasi ITS</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card3.jpg" alt="">
-              <div class="details">
-                <h4>Ruang Sidang</h4>
-                <span>Departemen Teknologi Informasi ITS</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
-            <a href="">
-              <img src="img/portfolio/card3.jpg" alt="">
-              <div class="details">
-                <h4>Plaza</h4>
-                <span>Departemen Teknologi Informasi ITS</span>
-              </div>
-            </a>
-          </div>
-            
-            <div class="col-lg-6 content order-lg-1 order-2">
-                <p> </p>
-            <h3>Photo Challange!</h3>
-            <span>Upload foto terbaikmu di Departemen Teknologi Informasi dan menangkan hadiah menarik lainnya!</span> <br/>
-            <span><i>format : nama_noTelp.jpg</i></span><br/>
-            <form action="upload.php" method="post" enctype="multipart/form-data">
-                Select image to upload: <br/>
-                <input type="file" name="fileToUpload" id="fileToUpload"> <input type="submit" value="Upload Image" name="submit">
-            </form>
-            </div>
-        </div>
-
-      </div>
-    </section><!-- #portfolio -->
-
-    <!--==========================
-      Team Section
-    ============================-->
-    <section id="team">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h3 class="section-title">Apa Kata Mereka?</h3>
-          <p class="section-description">Apa sih pendapat mereka mengenai teknologi informasi itu?</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
-              <h4>Bill Gates</h4>
-              <p>Microsoft</p>
-              <span>“Jika kita tidak memecahkan masalah keamanan, maka orang – orang akan ragu”</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
-              <h4>Rudiantara</h4>
-              <p>Menkominfo</p>
-              <span>“Smart City menciptakan perubahan system lebih efektif dan efisien dalam lembaga pemerintahan”</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
-              <h4>John McCarthy</h4>
-              <p>Pakar Komputasi MIT</p>
-              <span>“Suatu hari nanti komputasi akan menjadi infrastruktur public seperti listrik dan telepon”</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
-              <h4>Wiranto</h4>
-              <p>Menko Polhukam</p>
-              <span>"Kegiatan siber nasional terutama pengamanan siber ini merupakan keharusan, keniscayaan.."</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #team -->
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <section id="contact">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h3 class="section-title">Hubungi  Kami</h3>
-          <p class="section-description">Selalu terjalin dengan kami melalui kontak yang telah kami sediakan.</p>
-        </div>
-      </div>
-
-      <div class="container wow fadeInUp">
-        <div class="row justify-content-center">
-
-          <div class="col-lg-3 col-md-4">
-
-            <div class="info">
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p>Sekretariat Departemen Teknologi Informasi ITS <br> Lt. 2 Gd. Lama FTIf ITS Kampus ITS,<br>Sukolilo, 60111</p>
-              </div>
-
-              <div>
-                <i class="fa fa-envelope"></i>
-                <p>teknologi.informasi@its.ac.id</p>
-              </div>
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+62 31 5964965</p>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="send_mail.php" method="post" role="form" class="contactForm">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-              
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #contact -->
-
-  </main>
-
-  <!--==========================
-    Footer
-  ============================-->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-
-      </div>
-    </div>
-
-    <div class="container">
-
-
-      <div class="copyright">
-          
-          <span>Web Visitors : <?php 
-            include ("counter.php");
-            echo $kunjungan[0];
-            ?></span><br/>
-         <p>Today is <?php
-          echo date("Y/m/d") ." " . date("l");
-        ?> </p>
-          <span><a href="read.php">admin</a></span><br/>
-          
-        &copy; Copyright <strong>Gienzka Azzahra Wibowo Putri</strong>. 05211640000151
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
-        -->
-        Bootstrap Templates by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-
-
-      </div>
-    </div>
-  </footer><!-- #footer -->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
-
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-
-</body>
-</html>
+<?php
+/**
+ * CodeIgniter
+ *
+ * An open source application development framework for PHP
+ *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2014 - 2018, British Columbia Institute of Technology
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package	CodeIgniter
+ * @author	EllisLab Dev Team
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2018, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	https://codeigniter.com
+ * @since	Version 1.0.0
+ * @filesource
+ */
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ *
+ * You can load different configurations depending on your
+ * current environment. Setting the environment also influences
+ * things like logging and error reporting.
+ *
+ * This can be set to anything, but default usage is:
+ *
+ *     development
+ *     testing
+ *     production
+ *
+ * NOTE: If you change these, also change the error_reporting() code below
+ */
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
+switch (ENVIRONMENT)
+{
+	case 'development':
+		error_reporting(-1);
+		ini_set('display_errors', 1);
+	break;
+
+	case 'testing':
+	case 'production':
+		ini_set('display_errors', 0);
+		if (version_compare(PHP_VERSION, '5.3', '>='))
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
+		}
+		else
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
+		}
+	break;
+
+	default:
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'The application environment is not set correctly.';
+		exit(1); // EXIT_ERROR
+}
+
+/*
+ *---------------------------------------------------------------
+ * SYSTEM DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * This variable must contain the name of your "system" directory.
+ * Set the path if it is not in the same directory as this file.
+ */
+	$system_path = 'system';
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * If you want this front controller to use a different "application"
+ * directory than the default one you can set its name here. The directory
+ * can also be renamed or relocated anywhere on your server. If you do,
+ * use an absolute (full) server path.
+ * For more info please see the user guide:
+ *
+ * https://codeigniter.com/user_guide/general/managing_apps.html
+ *
+ * NO TRAILING SLASH!
+ */
+	$application_folder = 'application';
+
+/*
+ *---------------------------------------------------------------
+ * VIEW DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * If you want to move the view directory out of the application
+ * directory, set the path to it here. The directory can be renamed
+ * and relocated anywhere on your server. If blank, it will default
+ * to the standard location inside your application directory.
+ * If you do move this, use an absolute (full) server path.
+ *
+ * NO TRAILING SLASH!
+ */
+	$view_folder = '';
+
+
+/*
+ * --------------------------------------------------------------------
+ * DEFAULT CONTROLLER
+ * --------------------------------------------------------------------
+ *
+ * Normally you will set your default controller in the routes.php file.
+ * You can, however, force a custom routing by hard-coding a
+ * specific controller class/function here. For most applications, you
+ * WILL NOT set your routing here, but it's an option for those
+ * special instances where you might want to override the standard
+ * routing in a specific front controller that shares a common CI installation.
+ *
+ * IMPORTANT: If you set the routing here, NO OTHER controller will be
+ * callable. In essence, this preference limits your application to ONE
+ * specific controller. Leave the function name blank if you need
+ * to call functions dynamically via the URI.
+ *
+ * Un-comment the $routing array below to use this feature
+ */
+	// The directory name, relative to the "controllers" directory.  Leave blank
+	// if your controller is not in a sub-directory within the "controllers" one
+	// $routing['directory'] = '';
+
+	// The controller class file name.  Example:  mycontroller
+	// $routing['controller'] = '';
+
+	// The controller function you wish to be called.
+	// $routing['function']	= '';
+
+
+/*
+ * -------------------------------------------------------------------
+ *  CUSTOM CONFIG VALUES
+ * -------------------------------------------------------------------
+ *
+ * The $assign_to_config array below will be passed dynamically to the
+ * config class when initialized. This allows you to set custom config
+ * items or override any default config values found in the config.php file.
+ * This can be handy as it permits you to share one application between
+ * multiple front controller files, with each file containing different
+ * config values.
+ *
+ * Un-comment the $assign_to_config array below to use this feature
+ */
+	// $assign_to_config['name_of_config_item'] = 'value of config item';
+
+
+
+// --------------------------------------------------------------------
+// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
+// --------------------------------------------------------------------
+
+/*
+ * ---------------------------------------------------------------
+ *  Resolve the system path for increased reliability
+ * ---------------------------------------------------------------
+ */
+
+	// Set the current directory correctly for CLI requests
+	if (defined('STDIN'))
+	{
+		chdir(dirname(__FILE__));
+	}
+
+	if (($_temp = realpath($system_path)) !== FALSE)
+	{
+		$system_path = $_temp.DIRECTORY_SEPARATOR;
+	}
+	else
+	{
+		// Ensure there's a trailing slash
+		$system_path = strtr(
+			rtrim($system_path, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		).DIRECTORY_SEPARATOR;
+	}
+
+	// Is the system path correct?
+	if ( ! is_dir($system_path))
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
+		exit(3); // EXIT_CONFIG
+	}
+
+/*
+ * -------------------------------------------------------------------
+ *  Now that we know the path, set the main path constants
+ * -------------------------------------------------------------------
+ */
+	// The name of THIS file
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
+
+	// Path to the system directory
+	define('BASEPATH', $system_path);
+
+	// Path to the front controller (this file) directory
+	define('FCPATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
+
+	// Name of the "system" directory
+	define('SYSDIR', basename(BASEPATH));
+
+	// The path to the "application" directory
+	if (is_dir($application_folder))
+	{
+		if (($_temp = realpath($application_folder)) !== FALSE)
+		{
+			$application_folder = $_temp;
+		}
+		else
+		{
+			$application_folder = strtr(
+				rtrim($application_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(BASEPATH.$application_folder.DIRECTORY_SEPARATOR))
+	{
+		$application_folder = BASEPATH.strtr(
+			trim($application_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your application folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
+
+	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
+
+	// The path to the "views" directory
+	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.'views';
+	}
+	elseif (is_dir($view_folder))
+	{
+		if (($_temp = realpath($view_folder)) !== FALSE)
+		{
+			$view_folder = $_temp;
+		}
+		else
+		{
+			$view_folder = strtr(
+				rtrim($view_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(APPPATH.$view_folder.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.strtr(
+			trim($view_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your view folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
+
+	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
+
+/*
+ * --------------------------------------------------------------------
+ * LOAD THE BOOTSTRAP FILE
+ * --------------------------------------------------------------------
+ *
+ * And away we go...
+ */
+require_once BASEPATH.'core/CodeIgniter.php';
