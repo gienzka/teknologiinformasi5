@@ -24,5 +24,10 @@ class Welcome extends CI_Controller {
 		$this->load->view('read', $data);
 	}
     
+    public function pengunjung()
+    {
+        $data['pengunjung'] = $this->CrudModel->pengunjung();
+        $this->load->view('pengunjung', $data);
+    }
 
 }

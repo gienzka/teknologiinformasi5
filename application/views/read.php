@@ -106,24 +106,15 @@
                     </tr>
                     <?php } ?>
 	       </table>
-
-       
-
-
-
-
-
-
+                   <?php echo anchor('index.php/Crud/exportDB','Download Excel Format'); ?>
+                
+                <br/>
+                <br/>
+                <p>Lihat <a href="<?php echo base_url(). 'Welcome/pengunjung'; ?>">Statistik</a> pengunjung</p>
 
             </div>
           </div>
-
-        </div>
-
-      </div>
     </section><!-- #contact -->
-
-  </main>
 
   <!--==========================
     Footer

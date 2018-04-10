@@ -70,10 +70,12 @@ class Crud extends CI_Controller {
 	}
     
     function sendMail() {
-        $nama = $this->input->post('nama');
+        $nama = $this->input->post('name');
         $email = $this->input->post('email');
         $message = $this->input->post('message');
         $subject = $this->input->post('subject');
+        
+        $isi = 'Feedback : '.$nama.' | '.$email.' | '.$message;
         
         $ci = get_instance();
         $ci->load->library('email');
@@ -93,12 +95,20 @@ class Crud extends CI_Controller {
         $list = array('emailpercobaangienzka@gmail.com');
         $ci->email->to('emailpercobaangienzka@gmail.com');
         $ci->email->subject($subject);
-        $ci->email->message($message);
+        $ci->email->message($isi);
         if ($this->email->send()) {
-            echo 'Email sent.';
+            redirect(base_url());
         } else {
             show_error($this->email->print_debugger());
         }
+    }
+    
+    function exportDB(){
+        header("Content-type: application/vnd-ms-excel");
+        header("Content-Disposition: attachment; filename=Report.xls");
+    
+        $data['pengajuanformulir'] = $this->CrudModel->viewdbase()->result();
+        $this->load->view('read',$data);
     }
 
 }
